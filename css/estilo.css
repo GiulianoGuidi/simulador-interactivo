@@ -1,0 +1,141 @@
+/*index*/
+
+.encabezado{
+	display: flex;
+	flex-wrap: nowrap;
+	list-style-type: none;
+	font-size: 20px;
+	border: solid 5px orange;
+
+}
+.padd20{
+	padding: 20px;
+	text-decoration: none;
+}
+.padd20__cuenta{
+	position: relative;
+	right: -570px;
+	padding: 20px;
+	color: whitesmoke;
+}
+ .logo{
+ 	position: relative;
+ 	right: -150px;
+
+ }
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	padding-left: 550px;
+	font-size: 20px;
+}
+.boximagen{
+	width: 400px;
+	height: 400px;
+}
+.buscanos{
+
+	margin-left:250px ;
+}
+.redes{
+	margin-left: 400px;
+
+}
+
+.imgredes{
+	width: 70px;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+footer{
+	background-image: url(../assets/img/fondo.jpg);
+	border: solid 5px orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family:'Nunito', sans-serif
+
+}
+h3 {
+	font-size: 40px;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family:'Nunito', sans-serif
+}
+
+.parallax{
+	background-image: url(../assets/img/fondo.jpg);
+	text-decoration-color: whitesmoke;
+}
+li{
+	color: whitesmoke;
+}
+h2{
+	color: whitesmoke;
+}
+.contenido{
+	border: solid 5px whitesmoke;
+}
+.imgprincipal{
+	width: 1500px;
+	height: 500px;
+}
+
+/*sobre nosotros*/
+
+p{
+	color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;}
+
+
+    h4{
+    	color: whitesmoke;
+    	font-size: 30px;
+    	font-family:'Nunito', sans-serif
+    }
+#textoCentrado{
+	text-align: center;
+	width: 1100px;
+	margin-left: 200px;
+}
+
+.contacto{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+input{
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	width: 200px;
+	height: 30px;
+}
+
+.productos1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.productos2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.productos3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
